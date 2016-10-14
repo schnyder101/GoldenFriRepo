@@ -1,0 +1,52 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="robots" content="all,follow">
+    <meta name="googlebot" content="index,follow,snippet,archive">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Obaju e-commerce template">
+    <meta name="author" content="Ondrej Svestka | ondrejsvestka.cz">
+    <meta name="keywords" content="">
+
+    <title>
+        Golden Friday
+    </title>
+
+    <meta name="keywords" content="">
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100' rel='stylesheet' type='text/css'>
+
+    <script src="js/respond.min.js"></script>
+
+    <link rel="shortcut icon" href="favicon.png">
+    
+   
+
+<style>
+{% block style%}
+
+{% endblock %}
+</style>
+{% include 'head_css.html' %}
+</head>
+  <body>
+  {% include 'navbar.html' %}
+   
+      
+      
+  {% block content %}
+
+  {% endblock %}
+
+
+
+
+    {% include 'head_js.html' %}
+
+    
+  </body>
+</html>
